@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<luckybag>
+	<info>
+		<version>8</version>
+	</info>
+	<btn>
+		<filename>btn.png</filename>
+		<cx>205</cx>
+		<cy>19</cy>
+		<framecnt>3</framecnt>
+	</btn>
+	<animate>
+		<filename>animate.png</filename>
+		<cx>205</cx>
+		<cy>19</cy>
+		<duration>4000</duration>
+		<interval>100</interval>
+		<framecnt>8</framecnt>
+	</animate>
+	<tips>
+		<filename>tips.png</filename>
+		<cx>211</cx>
+		<cy>17</cy>
+	</tips>
+</luckybag>

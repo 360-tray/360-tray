@@ -1,0 +1,1561 @@
+﻿<?xml  version="1.0"?>
+<themes>
+    <modules>
+	    <realpro path="realpro_theme.xml" desc="木马防火墙" />
+		<bsc_theme path="theme_browser.xml" desc="浏览器安全防护中心" />
+	</modules>
+	<window>
+		<settingWnd icon_point="4,4">
+			<canvas normal="0xff54ae04" image="./MainFrame/Image/background_mainwnd.jpg" fill="0"/>
+			<border normal="0xff638c39" width="1" inner="0xffffffff"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="0" italic="0" underline="0"/>
+			<shadow border="5,3,5,7" image="./window_shadow.png"/>
+			<caption height="25" color="0xffffffff"/>
+			<system_button offset_pos="6" cap="1" top="0">
+				<close width="27" height="22" image="./MainFrame/Image/sys_button_close.png"/>
+				<min width="27" height="22" image="./MainFrame/Image/sys_button_min.png"/>
+				<max width="27" height="22" image="./MainFrame/Image/sys_button_max.png" retore_image="./MainFrame/Image/sys_button_restore.png"/>
+			</system_button>
+		</settingWnd>
+		<chgSkinWnd icon_point="4,4">
+			<canvas normal="0xffffffff" image="" fill="0"/>
+			<border normal="0xff638c39" width="1" inner="0xffffffff"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="0" italic="0" underline="0"/>
+			<shadow border="5,3,5,7" image="./window_shadow.png"/>
+			<caption height="25" color="0xffffffff"/>
+			<system_button offset_pos="0" cap="0" top="0">
+				<close width="27" height="17" image="./close.png"/>
+				<min width="27" height="17" image="./min.png"/>
+				<max width="27" height="17" image="./max.png" retore_image="./restore.png"/>
+			</system_button>
+		</chgSkinWnd>
+		<advtoolwnd icon_point="3,4">
+			<canvas normal="0xffffffff" image="" fill="0"/>
+			<border normal="0xff638c39" width="1" inner="0xffffffff"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="0" italic="0" underline="0"/>
+			<shadow border="25,20,25,30" image="./AdvTools/Image/advtool_shadow.png"/>
+			<caption height="30" color="0xffffffff" show="0"/>
+			<system_button offset_pos="6" cap="1" top="0">
+				<close width="27" height="22" image="./AdvTools/Image/dialog_close.png"/>
+				<min width="27" height="22" image="./MainFrame/Image/sys_button_min.png"/>
+				<max width="27" height="22" image="./MainFrame/Image/sys_button_max.png" retore_image="./MainFrame/Image/sys_button_restore.png"/>
+			</system_button>
+		</advtoolwnd>
+		<safemainwnd icon_point="3,4">
+			<canvas normal="0xffffffff" image="./MainFrame/Image/background_mainwnd.jpg" fill="0"/>
+			<border normal="0xff638c39" width="1" inner="0xffffffff"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="0" italic="0" underline="0"/>
+			<shadow border="5,3,5,7" image="./window_shadow.png"/>
+			<caption height="100" color="0xff4cb407"/>
+			<system_button offset_pos="0" cap="1" top="0">
+				<close width="32" height="22" image="./MainFrame/Image/sys_button_close.png"/>
+				<min width="27" height="22" image="./MainFrame/Image/sys_button_min.png"/>
+				<max width="27" height="22" image="./MainFrame/Image/sys_button_max.png" retore_image="./MainFrame/Image/sys_button_restore.png"/>
+			</system_button>
+		</safemainwnd>
+		<popupWindow icon_point="4,4">
+			<canvas normal="0xfff6f6f6" image="./MainFrame/Image/background_mainwnd.jpg" fill="0"/>
+			<border normal="0xff638c39" width="0" inner="0xffffffff"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="0" italic="0" underline="0"/>
+			<shadow border="5,3,5,7" image="./window_shadow.png"/>
+			<caption height="29" color="0xff4ea705"/>
+			<system_button offset_pos="6" cap="1" top="0">
+				<close width="27" height="22" image="./MainFrame/Image/sys_button_close.png"/>
+				<min width="27" height="22" image="./MainFrame/Image/sys_button_min.png"/>
+				<max width="27" height="22" image="./MainFrame/Image/sys_button_max.png" retore_image="./MainFrame/Image/sys_button_restore.png"/>
+			</system_button>
+		</popupWindow>
+		<setting icon_point="4,4">
+			<canvas normal="0xffffffff" image="" fill="0"/>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<shadow border="11,7,11,15" image="./window_shadow.png"/>
+			<caption height="20" color="0xffcdcdcd"/>
+			<system_button offset_pos="0" cap="0" top="0">
+				<close width="27" height="17" image="./close.png"/>
+				<min width="27" height="17" image="./min.png"/>
+				<max width="27" height="17" image="./max.png" retore_image="./restore.png"/>
+			</system_button>
+		</setting>
+		<default icon_point="4,4">
+			<canvas normal="0xff77cb00" image="" fill="0"/>
+			<border normal="0xff638c39" width="1" inner="0xffffffff"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="0" italic="0" underline="0"/>
+			<shadow border="5,3,5,7" image="./window_shadow.png"/>
+			<caption height="50" color="0xffffffff"/>
+			<system_button offset_pos="6" cap="1" top="0">
+				<close width="27" height="22" image="./MainFrame/Image/sys_button_close.png"/>
+				<min width="27" height="22" image="./MainFrame/Image/sys_button_min.png"/>
+				<max width="27" height="22" image="./MainFrame/Image/sys_button_max.png" retore_image="./MainFrame/Image/sys_button_restore.png"/>
+			</system_button>
+		</default>
+	</window>
+	<button>
+		<c1>
+			<canvas normal="0xffffffff" shine="0x00ffffff"/>
+			<border normal="0xffffffff" width="1" inner="0xffffffff"/>
+			<font face="宋体" color="0x00000000" size="10" bold="0" italic="0" underline="0"/>
+		</c1>
+		<btn1>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</btn1>
+		<Setting_Btn_Green>
+			<canvas normal="0xff5fb513" shine="0xff70c60f"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</Setting_Btn_Green>
+		<Setting_Btn_Black>
+			<canvas normal="0xff70c866" shine="0xffdcdcdc"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</Setting_Btn_Black>
+		<Setting_ChkBtn_Green>
+			<canvas normal="0xff66c45b" shine="0xffe8e8e8" disable_color="0xff999999"/>
+			<border normal="0xffc3c3c3" width="1" inner="0xffd9d9d9"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</Setting_ChkBtn_Green>
+		<Update_Window_Btn_OK>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+		</Update_Window_Btn_OK>
+		<Setting_White_Font_Btn>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="0" italic="0" underline="0"/>
+		</Setting_White_Font_Btn>
+		<uc_rebtn>
+			<canvas normal="0xffddebfb" shine="0xffffffff"/>
+			<border normal="0xffffffff" width="0" inner="0xffffffff"/>
+			<font face="微软雅黑" color="0x00435f00" size="9" bold="0" italic="0" underline="0"/>
+		</uc_rebtn>
+		<white>
+			<canvas normal="0xffe6e6e6" shine="0xffffffff" disable_color="0xff999999"/>
+			<border normal="0xffc0c0c0" width="1" inner="0xffffffff"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</white>
+		<Protect_btn>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00000000" size="8" bold="0" italic="0" underline="0"/>
+		</Protect_btn>
+		<ExamineList2ndBtnRedTxt>
+			<canvas normal="0xffffffff" shine="0xffffffff" disable_color="0x00D30000"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00D30000" size="9" bold="0" italic="0" underline="0"/>
+		</ExamineList2ndBtnRedTxt>
+		<Transparent>
+			<canvas normal="0xdf3db503" shine="0x00ffffff"/>
+			<border normal="0x00309903" width="1" inner="0xff309903"/>
+			<font face="微软雅黑" color="0x00ffffff" size="16" bold="0" italic="0" underline="0"/>
+		</Transparent>
+		<Transparent>
+			<canvas normal="0xdf3db503" shine="0x00ffffff"/>
+			<border normal="0x00309903" width="1" inner="0xff309903"/>
+			<font face="微软雅黑" color="0x00ffffff" size="16" bold="0" italic="0" underline="0"/>
+		</Transparent>
+		<examine_recommend_btn_white>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+		</examine_recommend_btn_white>
+		<ExamineTopPanel_White_Font_Btn>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00ffffff" size="10" bold="1" italic="0" underline="0"/>
+		</ExamineTopPanel_White_Font_Btn>
+		<ExamineList2ndBtn>
+			<canvas normal="0xffffffff" shine="0x7fffffff"/>
+			<border normal="0xffffffff" width="1" inner="0xffc0c0c0"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</ExamineList2ndBtn>
+		<advtool_addtool>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+		</advtool_addtool>
+		<advtool_opentool>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00474747" size="9" bold="0" italic="0" underline="0"/>
+		</advtool_opentool>
+		<CheckAuto_Warn_Checkbox>
+			<canvas normal="0xff66c45b" shine="0xffe8e8e8"/>
+			<border normal="0xffc3c3c3" width="1" inner="0xffd9d9d9"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</CheckAuto_Warn_Checkbox>
+		<checkautorun_btn>
+			<canvas normal="0xffffffff" shine="0xffffffff"/>
+			<border normal="0xffffffff" width="1" inner="0xffe6e4e7"/>
+			<font face="微软雅黑" color="0x00ffffff" size="12" bold="0" italic="0" underline="0"/>
+		</checkautorun_btn>
+		<default>
+			<canvas normal="0xffffffff" shine="0x7fffffff"/>
+			<border normal="0xffffffff" width="1" inner="0xffc0c0c0"/>
+			<font face="微软雅黑" color="0x00000000" size="8" bold="0" italic="0" underline="0"/>
+		</default>
+		<advtool_return>
+			<canvas normal="0xff66c45b" shine="0xffe8e8e8"/>
+			<border normal="0xffc3c3c3" width="0" inner="0xffd9d9d9"/>
+			<font face="微软雅黑" color="0x00474747" size="9" bold="0" italic="0" underline="0"/>
+		</advtool_return>
+	</button>
+	<picture>
+		<HoverShow>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xFF1F1F1F" radius="6" width="8" inner="0xF1F0F0F0" shine="0xff33a5E4"/>
+		</HoverShow>
+		<chgskin_item_picture>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xFF1F1F1F" radius="6" width="8" inner="0xF1F0F0F0" shine="0xff33a5E4"/>
+		</chgskin_item_picture>
+		<default>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1" inner="0xfff5f5f5" shine="0xff00008b"/>
+		</default>
+	</picture>
+	<combobox>
+		<default>
+			<canvas normal="0x0000ff00" hot="0x00ffffff" selected="0x00ffffff">
+				<dropbox normal="0x0000dee5" hot="0x00e5eddc" selected="0x00000000"/>
+				<triangle normal="0xffffffff"/>
+			</canvas>
+			<border normal="0xffffffff" width="1" inner="0xffffffff">
+				<drop_border normal="0x00000000" hot="0xffcdcdcd" selected="0xffccdee5"/>
+			</border>
+			<font face="宋体" color="0x00b5e513" size="9" bold="0" italic="0" underline="0"/>
+		</default>
+	</combobox>
+	<text>
+		<HalfTRansparent>
+			<canvas normal="0xE1ffffff"/>
+			<border normal="0x00A4c2d4" width="2" outer="0x0060C8FD"/>
+			<font face="宋体" color="0x000000" size="8" bold="0" italic="0" underline="0"/>
+		</HalfTRansparent>
+		<edit_search_tools>
+			<canvas normal="0x0000cb77"/>
+			<border width="1" outer="0xff4b0000" normal="0xff398c63"/>
+			<font face="宋体" color="0x00000000" size="10" bold="0" italic="0" underline="0"/>
+		</edit_search_tools>
+		<default>
+			<canvas normal="0x00ffffff"/>
+			<border width="0" outer="0xff60c8fd" normal="0xffa4c2d4"/>
+			<font face="微软雅黑" color="0x00000000" size="14" bold="0" italic="0" underline="0"/>
+		</default>
+	</text>
+	<progress>
+		<default>
+			<canvas normal="0xffffffff" block_begin_color="0xff00ff00" block_end_color="0xffffff00" caption_color="0xff000000" non_block_begin_color="0xcdcdcdcd" non_block_end_color="0xcdcdcdcd"/>
+			<border normal="0xfffcd208" width="1"/>
+			<font face="宋体" color="0x00b5e513" size="9" bold="0" italic="0" underline="0"/>
+		</default>
+	</progress>
+	<tabpage>
+		<default>
+			<canvas normal="0xffffffff" hot="0xffffffff" selected="0xf1ffffff" tab_focus="0xffffa500" radius="0" overlap="0" tab_focus_height="4"/>
+			<border normal="0xff262626" width="1" hot="0xff808080" selected="0xff808080"/>
+			<font face="宋体" color="0x00b5e513" size="16" bold="1" italic="0" underline="0"/>
+		</default>
+		<safe_sub_tabpage_theme>
+			<canvas normal="0x00ffffff" hot="0x00ffffff" selected="0x00ffffff" tab_focus="0x00ffa500" radius="0" overlap="0" tab_focus_height="4"/>
+			<border normal="0xff37960f" width="0" hot="0xff37960f" selected="0xff37960f"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="1" italic="0" underline="0"/>
+		</safe_sub_tabpage_theme>
+		<advtool_add_tabpage>
+			<canvas normal="0x00ffffff" hot="0x00ffffff" selected="0x00ffffff" tab_focus="0x00ffa500" radius="0" overlap="0" tab_focus_height="4"/>
+			<border normal="0xff37960f" width="0" hot="0xff37960f" selected="0xff37960f"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="1" italic="0" underline="0"/>
+		</advtool_add_tabpage>
+		<safe_main_tabpage>
+			<canvas normal="0xffffffff" hot="0xffffffff" selected="0xf1ffffff" tab_focus="0xffffa500" radius="0" overlap="0" tab_focus_height="4"/>
+			<border normal="0xff37960f" width="0" hot="0xff37960f" selected="0xff37960f"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="1" italic="0" underline="0"/>
+		</safe_main_tabpage>
+	</tabpage>
+	<rich_list>
+		<default>
+			<canvas normal="0xcc6a8464"/>
+			<border normal="0xffffffff" width="1" gridline="0x1fc0c0c0"/>
+			<select outer="0xffc0c0c0" inner="0xffc0c0c0" start="0xffa2e098" end="0xffa2e098"/>
+			<hover outer="0xff465842" inner="0xff465842"/>
+			<sub_select/>
+		</default>
+		<protect_list>
+			<canvas normal="0xfff2f3f2"/>
+			<border normal="0xff000000" width="0" gridline="0xffc0c0c0"/>
+			<select outer="0xfff2f3f2" inner="0xfff2f3f2" start="0xfff2f3f2" end="0xfff2f3f2"/>
+			<hover outer="0xffe7e7e7" inner="0xffe7e7e7" start="0xffe7e7e7" end="0xffe7e7e7"/>
+			<sub_select start="0x00000000" end="0x00000000"/>
+			<vscroll_theme scrollbar_theme=""/>
+			<hscroll_theme scrollbar_theme=""/>
+		</protect_list>
+		<exmaine_list>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1" gridline="0xffe2e2e2"/>
+			<select outer="0xfff0f0f0" inner="0xfff0f0f0" start="0xfff0f0f0" end="0xfff0f0f0"/>
+			<hover outer="0xfff0f0f0" inner="0xfff0f0f0" start="0xfff0f0f0" end="0xfff0f0f0"/>
+			<sub_select start="0x00000000" end="0x00000000"/>
+			<vscroll_theme scrollbar_theme="advtools_list_scroll"/>
+			<hscroll_theme scrollbar_theme="advtools_list_scroll"/>
+		</exmaine_list>
+		<advtools_list>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1" gridline="0xffeeeeee"/>
+			<select outer="0x00ffffff" inner="0x00ffffff" start="0xffebf5e2" end="0xffebf5e2"/>
+			<hover outer="0x00ffffff" inner="0x00ffffff" start="0xfff6f9f3" end="0xfff6f9f3"/>
+			<sub_select start="0x00000000" end="0x00000000"/>
+			<vscroll_theme scrollbar_theme="advtools_list_scroll"/>
+			<hscroll_theme scrollbar_theme="advtools_list_scroll"/>
+		</advtools_list>
+		<safemenu_list>
+			<canvas normal="0xfffafafa"/>
+			<border normal="0xfffafafa" width="0" gridline="0xfffafafa"/>
+			<select outer="0xfffafafa" inner="0xfffafafa" start="0xfffafafa" end="0xfffafafa"/>
+			<hover outer="0xffe1e1e1" inner="0xffe1e1e1" start="0xffe1e1e1" end="0xffe1e1e1"/>
+			<sub_select start="0x00000000" end="0x00000000"/>
+			<vscroll_theme scrollbar_theme=""/>
+			<hscroll_theme scrollbar_theme=""/>
+		</safemenu_list>
+	</rich_list>
+	<static>
+		<green>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="宋体" color="0x00b5e513" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff13e5b5" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</green>
+		<searchblue>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="宋体" color="0x00b5e513" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff13e5b5" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</searchblue>
+		<f6>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="48" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</f6>
+		<blue1>
+			<canvas normal="0xff3a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00007f1d" size="15" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff1d7f00" hot="0xff1d7f00" selected="0xff1d7f00" link_color="0xff000000"/>
+		</blue1>
+		<GrayBig>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00b2b2b2" size="18" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffb2b2b2" hot="0xffb2b2b2" selected="0xffb2b2b2" link_color="0xff000000"/>
+		</GrayBig>
+		<MainRightPanel>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00272727" size="12" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff272727" hot="0xff272727" selected="0xff272727" link_color="0xff000000"/>
+		</MainRightPanel>
+		<GrayYa12>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00646464" size="12" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff646464" hot="0xff646464" selected="0xff646464" link_color="0xff000000"/>
+		</GrayYa12>
+		<blueYa8>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00008839" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff398800" hot="0xff398800" selected="0xff398800" link_color="0xff000000"/>
+		</blueYa8>
+		<link_item>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</link_item>
+		<Yahei23>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="18" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</Yahei23>
+		<blueya12>
+			<canvas normal="0xff378cff"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00008839" size="12" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff398800" hot="0xff398800" selected="0xff398800" link_color="0xff000000"/>
+		</blueya12>
+		<advtool_tab_item_selected>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000d8033" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff33800d" hot="0xff33800d" selected="0xff33800d" link_color="0xff33800d"/>
+		</advtool_tab_item_selected>
+		<advtool_icontext>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</advtool_icontext>
+		<advtool_icontext>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</advtool_icontext>
+		<getexpfail1>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</getexpfail1>
+		<ExamineTopPanel_Stc_Red_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x003032d8" size="11" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffd10101" hot="0xffd10101" selected="0xffd10101" link_color="0xffd10101"/>
+		</ExamineTopPanel_Stc_Red_Title>
+		<ExamineTopPanel_Stc_Green_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x0000ba64" size="11" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff249f3f" hot="0xff249f3f" selected="0xff249f3f" link_color="0xff249f3f"/>
+		</ExamineTopPanel_Stc_Green_Title>
+		<ExamineTopPanel_Stc_Blue_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x0000ba64" size="11" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff2e95e2" hot="0xff2e95e2" selected="0xff2e95e2" link_color="0xff2e95e2"/>
+		</ExamineTopPanel_Stc_Blue_Title>
+		<ExamineTopPanel_Stc_Yellow_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x0007acfd" size="11" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffff9000" hot="0xffff9000" selected="0xffff9000" link_color="0xffff9000"/>
+		</ExamineTopPanel_Stc_Yellow_Title>
+		<ExamineTopPanel_Stc_Big_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="14" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</ExamineTopPanel_Stc_Big_Title>
+		<Protect_Red_Static>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00149c14" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xfff0b725" hot="0xfff0b725" selected="0xfff0b725" link_color="0xfff0b725"/>
+		</Protect_Red_Static>
+		<Update_Window_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</Update_Window_Title>
+		<examine_list_2nd_link_red>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000000ff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff0000" hot="0xffff0000" selected="0xffff0000" link_color="0xffff0000"/>
+		</examine_list_2nd_link_red>
+		<Setting_Static_Type>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</Setting_Static_Type>
+		<Setting_Static_Grey>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff9c9c9c" hot="0xff9c9c9c" selected="0xff9c9c9c" link_color="0xff9c9c9c"/>
+		</Setting_Static_Grey>
+		<Setting_Item_Write>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</Setting_Item_Write>
+    <Default_TabItem_Stc_Normal>
+      <canvas normal="0xffffffff"/>
+      <border normal="0xff000000" width="1"/>
+      <font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+      <caption normal="0xffffffff" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+    </Default_TabItem_Stc_Normal>
+    <Default_TabItem_Stc_Hover>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</Default_TabItem_Stc_Hover>
+		<examine_list_recommend_text>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="12" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</examine_list_recommend_text>
+		<examine_2nd_name>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</examine_2nd_name>
+		<link_item_text>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ff0000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff0000ff" hot="0xff4121f8" selected="0xff2f66f7" link_color="0xff000000"/>
+		</link_item_text>
+		<advtool_bubble_text>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</advtool_bubble_text>
+		<examine_list_3nd_link_fail>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000000ff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff0000" hot="0xffff0000" selected="0xffff0000" link_color="0xffff0000" disable_color="0xffff0000"/>
+		</examine_list_3nd_link_fail>
+		<examine_3rd_name_enable>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00555555" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff555555" hot="0xff555555" selected="0xff555555" link_color="0xff555555"/>
+		</examine_3rd_name_enable>
+		<Setting_Title_Stc>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xff000000" link_color="0xff000000"/>
+		</Setting_Title_Stc>
+    <Default_TabItem_Stc_Selected>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x0059c464" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff64c459" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</Default_TabItem_Stc_Selected>
+		<main_tabitem_second_select_stc>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00515151" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff515151" hot="0xff515151" selected="0xff515151" link_color="0xff000000"/>
+		</main_tabitem_second_select_stc>
+		<main_tabitem_second_hover_stc>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="0"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff515151" hot="0xff515151" selected="0xff515151" link_color="0xff000000"/>
+		</main_tabitem_second_hover_stc>
+		<main_tabitem_second_normal_stc>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff515151" hot="0xff515151" selected="0xff515151" link_color="0xff000000"/>
+		</main_tabitem_second_normal_stc>
+		<StatusBarCloudErrorInfo>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000d8033" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff9920" hot="0xffff9920" selected="0xffff9920" link_color="0xffff9920"/>
+		</StatusBarCloudErrorInfo>
+		<StatusBarCloudInfo>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000d8033" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff33800d" hot="0xff33800d" selected="0xff33800d" link_color="0xff33800d"/>
+		</StatusBarCloudInfo>
+		<StatusBarCloudErrorInfo>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000d8033" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff9920" hot="0xffff9920" selected="0xffff9920" link_color="0xffff9920"/>
+		</StatusBarCloudErrorInfo>
+		<uc_superlink_orange>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x003871e6" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffe67138" hot="0xffed9265" selected="0xff000000" link_color="0xff000000"/>
+		</uc_superlink_orange>
+		<Update_Window_Desc>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00999999" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff999999" hot="0xff999999" selected="0xff999999" link_color="0xff999999"/>
+		</Update_Window_Desc>
+		<CheckAutorun_Wnd_Desc>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</CheckAutorun_Wnd_Desc>
+		<Check_Autorun_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x003871e6" size="12" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffe67138" hot="0xffe67138" selected="0xffe67138" link_color="0xffe67138"/>
+		</Check_Autorun_Title>
+		<uc_netfailtext>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x001739e5" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffe53917" hot="0xffe53917" selected="0xff000000" link_color="0xff000000"/>
+		</uc_netfailtext>
+		<uc_cookiepasstext>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x001e6d31" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff316d1e" hot="0xff316d1e" selected="0xff000000" link_color="0xff000000"/>
+		</uc_cookiepasstext>
+		<uc_superlink>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00a2661a" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff1a66a2" hot="0xff0da2e7" selected="0xff000000" link_color="0xff000000"/>
+		</uc_superlink>
+		<uc_graytext>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00808080" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff808080" hot="0xff808080" selected="0xff000000" link_color="0xff000000"/>
+		</uc_graytext>
+		<uc_getexpfail1>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000066ff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff6600" hot="0xffff6600" selected="0xff000000" link_color="0xff000000"/>
+		</uc_getexpfail1>
+		<uc_level>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</uc_level>
+		<uc_progresstext>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="7" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</uc_progresstext>
+		<uc_normaltext>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff474747" hot="0xff474747" selected="0xff474747" link_color="0xff474747"/>
+		</uc_normaltext>
+		<uc_percent>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x003871e6" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffe67138" hot="0xffe67138" selected="0xff000000" link_color="0xff000000"/>
+		</uc_percent>
+		<uc_todayexp>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff33800d" hot="0xff33800d" selected="0xff33800d" link_color="0xff33800d"/>
+		</uc_todayexp>
+		<uc_username>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</uc_username>
+		<uc_text_gray1>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00555555" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff555555" hot="0xff555555" selected="0xff555555" link_color="0xff555555"/>
+		</uc_text_gray1>
+		<uc_text_orange1>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000f74fc" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xfffc740f" hot="0xfffc740f" selected="0xfffc740f" link_color="0xfffc740f"/>
+		</uc_text_orange1>
+		<examine_list_2nd_link>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ff8c37" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff378cff" hot="0xff378cfa" selected="0xff378cdc" link_color="0xffff0000" disable_color="0xff999999"/>
+		</examine_list_2nd_link>
+		<examine_list_2nd_orange_static>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</examine_list_2nd_orange_static>
+		<Protect_desc_green>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00606060" size="11" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff606060" hot="0xff606060" selected="0xff606060" link_color="0xff606060"/>
+		</Protect_desc_green>
+		<black>
+			<canvas normal="0xff3a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00676053" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff536067" hot="0xff536067" selected="0xff536067" link_color="0xff000000"/>
+		</black>
+		<BlackYa8>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</BlackYa8>
+		<StatusBarCloudLink>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x002099ff" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff9920" hot="0xffffb320" selected="0xff000000" link_color="0xff000000"/>
+		</StatusBarCloudLink>
+		<Protect_Green_Static>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00149c14" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff149c14" hot="0xff149c14" selected="0xff149c14" link_color="0xff149c14"/>
+		</Protect_Green_Static>
+		<Protect_Link_Blue>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00e59422" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff2294e5" hot="0xff2294e5" selected="0xff2294e5" link_color="0xff2294e5"/>
+		</Protect_Link_Blue>
+		<green8>
+			<canvas normal="0xfffa422e"/>
+			<border normal="0xffff8000" width="5"/>
+			<font face="微软雅黑" color="0x00ff8000" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff0080ff" hot="0xff0080ff" selected="0xff0080ff" link_color="0xff000000"/>
+		</green8>
+		<Protect_desc_red>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xffff0000" width="1"/>
+			<font face="微软雅黑" color="0x000007fe" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xfffe0700" hot="0xfffe0700" selected="0xfffe0700" link_color="0xfffe0700"/>
+		</Protect_desc_red>
+		<Protect_desc_red_hover>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xffff0000" width="1"/>
+			<font face="微软雅黑" color="0x000007fe" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff5f2b" hot="0xffff5f2b" selected="0xffff5f2b" link_color="0xffff5f2b"/>
+		</Protect_desc_red_hover>
+		<Protect_desc_black>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00474747" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff474747" hot="0xff474747" selected="0xff474747" link_color="0xff474747"/>
+		</Protect_desc_black>
+		<Protect_desc_black_hover>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00474747" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff556b7a" hot="0xff556b7a" selected="0xff556b7a" link_color="0xff556b7a"/>
+		</Protect_desc_black_hover>
+		<green12Link>
+			<canvas normal="0xfffa422e"/>
+			<border normal="0xffff8000" width="5"/>
+			<font face="微软雅黑" color="0x00ff8000" size="12" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff0080ff" hot="0xff5dbcff" selected="0xff5dbcff" link_color="0xff000000"/>
+		</green12Link>
+		<GrayYa8>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00646464" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff646464" hot="0xff646464" selected="0xff646464" link_color="0xff000000"/>
+		</GrayYa8>
+		<exmaine_1st_name>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00555555" size="11" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff555555" hot="0xff555555" selected="0xff555555" link_color="0xff555555"/>
+		</exmaine_1st_name>
+		<examine_3rd_name_disable>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00aaaaaa" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffaaaaaa" hot="0xffaaaaaa" selected="0xffaaaaaa" link_color="0xffaaaaaa"/>
+		</examine_3rd_name_disable>
+		<examine_list_3nd_link_disable>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00808080" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff808080" hot="0xff808080" selected="0xff808080" link_color="0xff808080"/>
+		</examine_list_3nd_link_disable>
+		<examine_list_3nd_link_enable>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ff8c37" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff378cff" hot="0xff378cff" selected="0xff378cff" link_color="0xff378cff"/>
+		</examine_list_3nd_link_enable>
+		<ExamineTopPanel_Stc_12B_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00707070" size="11" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff707070" hot="0xff707070" selected="0xff707070" link_color="0xff707070"/>
+		</ExamineTopPanel_Stc_12B_Title>
+		<ExamineTopPanel_Stc_12_Desc>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00707070" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff707070" hot="0xff707070" selected="0xff707070" link_color="0xff707070"/>
+		</ExamineTopPanel_Stc_12_Desc>
+		<blue_link>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑;宋体" color="0x00db8b65" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff658bdb" hot="0xff658bdb" selected="0xff658bdb" link_color="0xff658bdb"/>
+		</blue_link>
+		<ExamineTopPanel_Stc_Title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</ExamineTopPanel_Stc_Title>
+		<Protect_desc_red_nohover>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000007fe" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xfffe0700" hot="0xfffe0700" selected="0xfffe0700" link_color="0xfffe0700"/>
+		</Protect_desc_red_nohover>
+		<popup_static_gray>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00999999" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff999999" hot="0xff999999" selected="0xff999999" link_color="0xff999999"/>
+		</popup_static_gray>
+		<Update_Window_TitleText>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</Update_Window_TitleText>
+		<Update_Feedback_Link>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ff8000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff2294e5" hot="0xff5dbcff" selected="0xff000000" link_color="0xff000000"/>
+		</Update_Feedback_Link>
+		<Check_Autorun_Link>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00fd961f" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff1f96fd" hot="0xff1f96fd" selected="0xff1f96fd" link_color="0xff1f96fd"/>
+		</Check_Autorun_Link>
+		<popup_static_bold_orange>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x003871e6" size="12" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffe67138" hot="0xffe67138" selected="0xffe67138" link_color="0xffe67138"/>
+		</popup_static_bold_orange>
+		<popup_static_bold_orange_big>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x003871e6" size="16" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffe67138" hot="0xffe67138" selected="0xffe67138" link_color="0xffe67138"/>
+		</popup_static_bold_orange_big>
+		<popup_static_bold>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</popup_static_bold>
+		<toollistitem_title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</toollistitem_title>
+		<advtool_installfail>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000000ff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff0000" hot="0xffff0000" selected="0xffff0000" link_color="0xffff0000"/>
+		</advtool_installfail>
+		<toollistitem_title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</toollistitem_title>
+		<advtool_installfail>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000000ff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff0000" hot="0xffff0000" selected="0xffff0000" link_color="0xffff0000"/>
+		</advtool_installfail>
+		<advtool_title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000d8033" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff33800d" hot="0xff33800d" selected="0xff33800d" link_color="0xff000000"/>
+		</advtool_title>
+		<advtool_link>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00e59422" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff2294e5" hot="0xff5dbcff" selected="0xff2294e5" link_color="0xff000000"/>
+		</advtool_link>
+		<toollistitem_title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</toollistitem_title>
+		<advtool_installfail>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000000ff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff0000" hot="0xffff0000" selected="0xffff0000" link_color="0xffff0000"/>
+		</advtool_installfail>
+		<advtool_title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000d8033" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff33800d" hot="0xff33800d" selected="0xff33800d" link_color="0xff000000"/>
+		</advtool_title>
+		<advtool_link>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00e59422" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff2294e5" hot="0xff5dbcff" selected="0xff2294e5" link_color="0xff000000"/>
+		</advtool_link>
+		<advtool_tab_item>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00474747" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff474747" hot="0xff33800d" selected="0xff33800d" link_color="0xff33800d"/>
+		</advtool_tab_item>
+		<toollistitem_title>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</toollistitem_title>
+		<toollistitem_desc_ex>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</toollistitem_desc_ex>
+		<advtool_installfail>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x000000ff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffff0000" hot="0xffff0000" selected="0xffff0000" link_color="0xffff0000"/>
+		</advtool_installfail>
+		<toollistitem_desc>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</toollistitem_desc>
+		<dynamic_advtool_text>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x007c7c7c" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff7c7c7c" hot="0xff7c7c7c" selected="0xff7c7c7c" link_color="0xff000000"/>
+		</dynamic_advtool_text>
+		<popup_static_normal>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</popup_static_normal>
+		<safe_title>
+			<canvas normal="0x003a6026"/>
+			<border normal="0xff638c39" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xff000000"/>
+		</safe_title>
+		<Main_Tab_Static>
+			<canvas normal="0xff5e5e5e"/>
+			<border normal="0xff400040" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</Main_Tab_Static>
+		<StatusBarInfo>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</StatusBarInfo>
+		<StatusBarLink>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00e59422" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff2294e5" hot="0xff5dbcff" selected="0xff000000" link_color="0xff000000"/>
+		</StatusBarLink>
+		<StatusBarVersion>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="Tahoma" color="0x00000000" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</StatusBarVersion>
+		<AboutDlg_Stc_Big>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x0000ff80" size="18" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff19a039" hot="0xff19a039" selected="0xff19a039" link_color="0xff19a039"/>
+		</AboutDlg_Stc_Big>
+		<AboutDlg_Stc_Title>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xff000000" link_color="0xff000000"/>
+		</AboutDlg_Stc_Title>
+		<AboutDlg_Stc_Normal>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</AboutDlg_Stc_Normal>
+		<AboutDlg_Stc_Copyright>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00acacac" size="8" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffacacac" hot="0xffacacac" selected="0xff000000" link_color="0xff000000"/>
+		</AboutDlg_Stc_Copyright>
+		<default>
+			<canvas normal="0xff5e5e5e"/>
+			<border normal="0xff400040" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</default>
+		<default>
+			<canvas normal="0xff5e5e5e"/>
+			<border normal="0xff400040" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="8" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</default>
+		<safemenu_item_hover_text>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00ffffff" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</safemenu_item_hover_text>
+		<safemenu_item_text>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</safemenu_item_text>
+		<advtool_static_title>
+			<canvas normal="0xffffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00000000" size="14" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</advtool_static_title>
+		<checkautorun_static>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑" color="0x00323232" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff323232" hot="0xff323232" selected="0xff323232" link_color="0xff000000"/>
+		</checkautorun_static>
+
+	</static>
+	<scrollbar>
+		<default>
+			<canvas normal="0xffffffff" shine="0xffdbe7ee" hot="0xffe4e7ed" selected="0xffdbe7ee">
+				<arrow normal="0x00e7e7e7" arrow_size="12"/>
+				<track normal="0xffe4e7ed" background="0x00ffffff" shine="0xdfffffff" background_size="6" line="0x00a3adbb"/>
+			</canvas>
+			<border normal="0x00c9c9c9" width="1" inner="0x00b5b4b3" hot="0x00c9c9c9" selected="0x00c9c9c9">
+				<track normal="0xffbac3cc" hot="0xffbac3cc" selected="0xffbac3cc"/>
+				<arrow normal="0x00780045">
+					<triangle normal="0x0b00000b" hot="0x00004b4d" selected="0x042b0720"/>
+				</arrow>
+			</border>
+			<scroll_images arrow_ul="" arrow_dr="" scroll_bg="IDI_SCROLLBAR_BG" thumb_ul="IDI_SCROLLBAR_THUMB_UP" thumb_dr="IDI_SCROLLBAR_THUMB_DOWN" thumb_bg="IDI_SCROLLBAR_THUMB" thumb_center="IDI_SCROLLBAR_THUMB_CENTER"/>
+		</default>
+		<examine_list_scroll>
+			<canvas normal="0xffffffff" shine="0xffdbe7ee" hot="0xffe4e7ed" selected="0xffdbe7ee">
+				<arrow normal="0x00e7e7e7" arrow_size="14"/>
+				<track normal="0xffe4e7ed" background="0xffc5c5c5" shine="0xdfffffff" background_size="6" line="0xffa3adbb"/>
+			</canvas>
+			<border normal="0x00c9c9c9" width="1" inner="0x00b5b4b3" hot="0x00c9c9c9" selected="0x00c9c9c9">
+				<track normal="0xffbac3cc" hot="0xffbac3cc" selected="0xffbac3cc"/>
+				<arrow normal="0x00780045">
+					<triangle normal="0x0b00000b" hot="0x00004b4d" selected="0x042b0720"/>
+				</arrow>
+			</border>
+			<scroll_images arrow_ul="" arrow_dr="" scroll_bg="" thumb_ul="" thumb_dr="" thumb_bg="" thumb_center=""/>
+		</examine_list_scroll>
+		<advtools_list_scroll>
+			<canvas normal="0xffffffff" shine="0xffdbe7ee" hot="0xffe4e7ed" selected="0xffdbe7ee">
+				<arrow normal="0x00e7e7e7" arrow_size="12"/>
+				<track normal="0xffe4e7ed" background="0x00ffffff" shine="0xdfffffff" background_size="6" line="0x00a3adbb"/>
+			</canvas>
+			<border normal="0x00c9c9c9" width="1" inner="0x00b5b4b3" hot="0x00c9c9c9" selected="0x00c9c9c9">
+				<track normal="0xffbac3cc" hot="0xffbac3cc" selected="0xffbac3cc"/>
+				<arrow normal="0x00780045">
+					<triangle normal="0x0b00000b" hot="0x00004b4d" selected="0x042b0720"/>
+				</arrow>
+			</border>
+			<scroll_images arrow_ul="" arrow_dr="" scroll_bg="IDI_SCROLLBAR_BG" thumb_ul="IDI_SCROLLBAR_THUMB_UP" thumb_dr="IDI_SCROLLBAR_THUMB_DOWN" thumb_bg="IDI_SCROLLBAR_THUMB" thumb_center="IDI_SCROLLBAR_THUMB_CENTER"/>
+		</advtools_list_scroll>
+	</scrollbar>
+	<panel>
+		<a5>
+			<canvas radius="0" angle="90"/>
+			<border width="1" normal="0xff398c63" inner="0xff350045"/>
+			<font face="宋体" color="0x00b5e513" size="9" bold="0" italic="0" underline="0"/>
+		</a5>
+		<a3>
+			<canvas radius="0" angle="90">
+				<stop color="0x0" offset="0.0"/>
+			</canvas>
+			<border width="1" normal="0xff398c63" inner="0xff350045"/>
+			<font face="宋体" color="0x00b5e513" size="9" bold="0" italic="0" underline="0"/>
+		</a3>
+		<test>
+			<canvas radius="0" angle="90">
+				<stop color="0xff000000" offset="0.1"/>
+				<stop color="0x0" offset="1.0"/>
+			</canvas>
+			<border width="1" normal="0xff398c63" inner="0xffcdcdcd"/>
+		</test>
+		<baobiao_white>
+			<canvas radius="10" angle="90">
+				<stop color="0xffffffff" offset="0.0"/>
+			</canvas>
+			<border width="1" normal="0xffc3c3c3" inner="0xffffffff"/>
+		</baobiao_white>
+		<GrayPanel>
+			<canvas normal="0xfffafafa" radius="8" angle="90">
+				<stop color="0xfffafafa" hover="0xfffafafa" select="0xfffafafa" offset="0.0"/>
+			</canvas>
+			<border normal="0xff398c63" width="1" inner="0xffcdcdcd" hot="0xbaadf00d" selected="0xbaadf00d"/>
+		</GrayPanel>
+		<grayline>
+			<canvas normal="0x00ffffff" radius="0" angle="90"/>
+			<border normal="0xffc3c3c3" width="1" inner="0xffffffff" hot="0xbaadf00d" selected="0xbaadf00d"/>
+		</grayline>
+		<graylineEx>
+			<canvas normal="0xffb0b0b0" radius="0" angle="90"/>
+			<border normal="0xffc3c3c3" width="1" inner="0xffffffff" hot="0xbaadf00d" selected="0xbaadf00d"/>
+		</graylineEx>
+		<toollistview_panel>
+			<canvas normal="0x00ffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006e0061" hot="0x00680063" selected="0x00730065"/>
+		</toollistview_panel>
+		<HP_RIGHT_PANEL>
+			<canvas normal="0xff77cb00" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xbaadf00d" hot="0xbaadf00d" selected="0xbaadf00d"/>
+		</HP_RIGHT_PANEL>
+		<examine_group_color_risk>
+			<canvas normal="0xffee9d44" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x0065006d" hot="0x0074005c" selected="0x00750072"/>
+		</examine_group_color_risk>
+		<advmask_panel>
+			<canvas normal="0x33000000" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006c006f" hot="0x005f0073" selected="0x00310058"/>
+		</advmask_panel>
+		<advtool_panel_more>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00a0a0a0" hot="0xffa0a0a0" selected="0xffa0a0a0"/>
+			<vscroll_theme scrollbar_theme="advtools_list_scroll"/>
+			<hscroll_theme scrollbar_theme="advtools_list_scroll"/>
+		</advtool_panel_more>
+		<toollistview_panel_test>
+			<canvas normal="0x00ffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00750072" hot="0x006b006e" selected="0x0033005c"/>
+		</toollistview_panel_test>
+		<ExamineTopPanel_Green>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xfffafdf1" hover="0xfffafdf1" select="0xfffafdf1" offset="0.0"/>
+				<stop color="0xffd1ffbf" hover="0xffd1ffbf" select="0xffd1ffbf" offset="1.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x00000000" hot="0x00000000" selected="0x00000000"/>
+		</ExamineTopPanel_Green>
+		<ExamineTopPanel_Yellow>
+			<canvas normal="0x8f738bd2" radius="0" angle="90">
+				<stop color="0xfffafdf0" hover="0xfffafdf0" select="0xfffafdf0" offset="0.0"/>
+				<stop color="0xfffaf0c2" hover="0xfffaf0c2" select="0xfffaf0c2" offset="1.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x00270074" hot="0x0000005d" selected="0x05000005"/>
+		</ExamineTopPanel_Yellow>
+		<ExamineTopPanel_Line_Yellow>
+			<canvas normal="0xffffffff" radius="0" angle="90">
+				<stop color="0xffffdcba" hover="0xffffdcba" select="0xffffdcba" offset="0.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x00750072" hot="0x006b006e" selected="0x0033005c"/>
+		</ExamineTopPanel_Line_Yellow>
+		<ExamineTopPanel_Red>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xfffafdf1" hover="0xfffafdf1" select="0xfffafdf1" offset="0.0"/>
+				<stop color="0xffffe7e7" hover="0xffffe7e7" select="0xffffe7e7" offset="1.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x00450000" hot="0x00540043" selected="0x23000122"/>
+		</ExamineTopPanel_Red>
+		<ExamineTopPanel_Line_Green>
+			<canvas normal="0xffb3dea6" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00000000" hot="0x00000000" selected="0x00000000"/>
+		</ExamineTopPanel_Line_Green>
+		<ExamineTopPanel_Line_Red>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xfff2bdbd" hover="0xfff2bdbd" select="0xfff2bdbd" offset="0.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x006c0000" hot="0x00000065" selected="0x0f01000e"/>
+		</ExamineTopPanel_Line_Red>
+		<searchpanel>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xffeceff1" hover="0x00ffffff" select="0x00ffffff" offset="0.0"/>
+			</canvas>
+			<border normal="0xffeceff1" width="1" inner="0xffcdcdcd" hot="0xbaadf00d" selected="0xbaadf00d"/>
+		</searchpanel>
+		<examine_group_color_safe>
+			<canvas normal="0xffe28261" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x0069006d" hot="0x0065006e" selected="0x0033005f"/>
+		</examine_group_color_safe>
+		<examine_group_color_danager>
+			<canvas normal="0xfffa6247" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00640073" hot="0x00730073" selected="0x00660064"/>
+		</examine_group_color_danager>
+		<protect_red_panel>
+			<canvas normal="0xfffacb3f" radius="0" angle="0">
+				<stop color="0xfff8bd32" hover="0xfff8bd32" select="0xfff8bd32" offset="0.0"/>
+				<stop color="0xfffed64a" hover="0xfffed64a" select="0xfffed64a" offset="1.0"/>
+			</canvas>
+			<border normal="0xfffacb3f" width="1" inner="0x00000000" hot="0x00000000" selected="0x00000000"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</protect_red_panel>
+		<protect_red1_panel>
+			<canvas normal="0xfffacb3f" radius="0" angle="0">
+				<stop color="0xfffff5d7" hover="0xfff8bd32" select="0xfff8bd32" offset="0.0"/>
+				<stop color="0xfffff2c8" hover="0xfffed64a" select="0xfffed64a" offset="1.0"/>
+			</canvas>
+			<border normal="0xfffacb3f" width="1" inner="0x00000000" hot="0x00000000" selected="0x00000000"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</protect_red1_panel>
+		<protect_red2_panel>
+			<canvas normal="0xfffacb3f" radius="0" angle="0">
+				<stop color="0xffffeeb3" hover="0xfff8bd32" select="0xfff8bd32" offset="0.0"/>
+				<stop color="0xffffe796" hover="0xfffed64a" select="0xfffed64a" offset="1.0"/>
+			</canvas>
+			<border normal="0xfffacb3f" width="1" inner="0x00000000" hot="0x00000000" selected="0x00000000"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</protect_red2_panel>
+		<protect_red3_panel>
+			<canvas normal="0xfffacb3f" radius="0" angle="0">
+				<stop color="0xfff8bd32" hover="0xfff8bd32" select="0xfff8bd32" offset="0.0"/>
+				<stop color="0xfffed64a" hover="0xfffed64a" select="0xfffed64a" offset="1.0"/>
+			</canvas>
+			<border normal="0xfffacb3f" width="1" inner="0x00000000" hot="0x00000000" selected="0x00000000"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</protect_red3_panel>
+		<Setting_Panel_Write>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00610074" hot="0x004c005c" selected="0x0063006f"/>
+		</Setting_Panel_Write>
+    <Default_TabItem_Hover>
+			<canvas normal="0x55ffffff" radius="5" angle="0"/>
+			<border normal="0xff000000" width="1" inner="0xff690074" hot="0xff67006e" selected="0xff53005f"/>
+		</Default_TabItem_Hover>
+		<examine_group_color_green>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00000000" hot="0x00000000" selected="0xd90001d8"/>
+		</examine_group_color_green>
+		<examine_group_color>
+			<canvas normal="0xfffdd6ae" radius="0" angle="90"/>
+			<border normal="0xfff8bb49" width="1" inner="0x0069006d" hot="0x0065006e" selected="0x0033005f"/>
+		</examine_group_color>
+		<ProtectWnd_List_Panel>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xfff9f9f9" hover="0xfff9f9f9" select="0xfff9f9f9" offset="0.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x00000000" hot="0x00000000" selected="0x00000000"/>
+		</ProtectWnd_List_Panel>
+		<ProtectWnd_Select_Panel>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0x00e6e6e6" hover="0xffe6e6e6" select="0xffe6e6e6" offset="0.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x00750072" hot="0x006b006e" selected="0x0033005c"/>
+		</ProtectWnd_Select_Panel>
+		<Setting_SubItem_Write>
+			<canvas normal="0xffffffff" radius="5" angle="0"/>
+			<border normal="0xff000000" width="1" inner="0x00690074" hot="0x0067006e" selected="0x0053005f"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</Setting_SubItem_Write>
+    <Default_TabItem_Selected>
+      <canvas normal="0xffffffff" radius="5" angle="0"/>
+      <border normal="0xff000000" width="1" inner="0x00690074" hot="0x0067006e" selected="0x0053005f"/>
+      <vscroll_theme scrollbar_theme=""/>
+    </Default_TabItem_Selected>
+		<main_tabitem_second_select>
+			<canvas normal="0xffffffff" radius="5" angle="0"/>
+			<border normal="0xff000000" width="1" inner="0x00690074" hot="0x0067006e" selected="0x0053005f"/>
+		</main_tabitem_second_select>
+		<main_tabitem_second_hover>
+			<canvas normal="0x55ffffff" radius="5" angle="0"/>
+			<border normal="0xff000000" width="1" inner="0xff690074" hot="0xff67006e" selected="0xff53005f"/>
+		</main_tabitem_second_hover>
+		<main_tabitem_second_normal>
+			<canvas normal="0xaaffffff" radius="5" angle="0"/>
+			<border normal="0xff000000" width="1" inner="0x00690074" hot="0x0067006e" selected="0x0053005f"/>
+		</main_tabitem_second_normal>
+		<StatusBarPanel>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00650064" hot="0x00270072" selected="0x0000005d"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</StatusBarPanel>
+		<Setting_SubItem_Green>
+			<canvas normal="0xff60eb58" radius="3" angle="90"/>
+			<border normal="0xff0410e3" width="2" inner="0x00650064" hot="0xff3120ff" selected="0xfff77435"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</Setting_SubItem_Green>
+		<UpdateWindow_TitleBar>
+			<canvas normal="0xff4ea705" radius="0" angle="0">
+				<stop color="0xff4ea705" hover="0xff4ea705" select="0xff4ea705" offset="0.0"/>
+				<stop color="0xff6fbd00" hover="0xff6fbd00" select="0xff6fbd00" offset="1.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x006d0065" hot="0x00730065" selected="0x00780065"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</UpdateWindow_TitleBar>
+		<Setting_Bottom_Panel>
+			<canvas normal="0xffffffff" radius="0" angle="0"/>
+			<border normal="0xffffffff" width="1" inner="0xffffffff" hot="0x00ffffff" selected="0xffffffff"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</Setting_Bottom_Panel>
+		<uc_panel>
+			<canvas normal="0xfffafafa" radius="0" angle="0"/>
+			<border normal="0xffffffff" width="1" inner="0x00530030" hot="0x00660061" selected="0x00540065"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</uc_panel>
+		<examine_list_headline>
+			<canvas normal="0xffe6e6e6" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00640073" hot="0x00730073" selected="0x00660064"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</examine_list_headline>
+		<exmaine_list_2nd_orange_panel>
+			<canvas normal="0xffff9100" radius="15" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</exmaine_list_2nd_orange_panel>
+		<examine_list_emtpy_panel>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xffffffff" width="1" inner="0xffffffff" hot="0xffffffff" selected="0xffffffff"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</examine_list_emtpy_panel>
+		<popup_window_title>
+			<canvas normal="0xff4ea705" radius="0" angle="0">
+				<stop color="0xff4ea705" hover="0xff4ea705" select="0xff4ea705" offset="0.0"/>
+				<stop color="0xff6fbd00" hover="0xff6fbd00" select="0xff6fbd00" offset="1.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x006d0065" hot="0x00730065" selected="0x00780065"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</popup_window_title>
+		<protect_shadow_panel>
+			<canvas normal="0xffffffff" radius="0" angle="90">
+				<stop color="0xaac0c0c0" hover="0xaac0c0c0" select="0xaac0c0c0" offset="0.0"/>
+				<stop color="0x11f3f3f3" hover="0x11f3f3f3" select="0x11f3f3f3" offset="1.0"/>
+			</canvas>
+			<border normal="0xffffffff" width="1" inner="0xffffffff" hot="0x00ffffff" selected="0xffffffff"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</protect_shadow_panel>
+		<chgskin_panel>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00a0a0a0" hot="0xffa0a0a0" selected="0xffa0a0a0"/>
+			<vscroll_theme scrollbar_theme="advtools_list_scroll"/>
+		</chgskin_panel>
+		<default_rect_panel>
+			<canvas normal="0xffffffff" radius="0" angle="0"/>
+			<border normal="0xffffffff" width="1" inner="0xffffffff" hot="0x00ffffff" selected="0xffffffff"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</default_rect_panel>
+		<defalt>
+			<canvas normal="0x00ffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x01e07c0c" hot="0x00000000" selected="0x01d11090"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</defalt>
+		<ExamineHomePageRecommendPanel>
+			<canvas normal="0xfffafafa" radius="0" angle="90">
+				<stop color="0xfffafafa" hover="0xfffafafa" select="0xfffafafa" offset="0.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x100af040" hot="0x00000000" selected="0x01a4ab08"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</ExamineHomePageRecommendPanel>
+		<ExamineListPanel_Gray>
+			<canvas normal="0xfff8f8f8" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00450000" hot="0x00540043" selected="0x23000122"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</ExamineListPanel_Gray>
+		<examine_1st_level_group>
+			<canvas normal="0x00ffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="0" inner="0x0438e758" hot="0x0438e1d8" selected="0x00690074"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</examine_1st_level_group>
+		<ExamineList3rdLevelColor>
+			<canvas normal="0xffe6e6e6" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x52a8624b" hot="0x590d4fee" selected="0x672a4f46"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</ExamineList3rdLevelColor>
+		<examine_2nd_level_group>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="0" inner="0x0065006d" hot="0x0074005c" selected="0x00750072"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</examine_2nd_level_group>
+		<examine_3nd_group_panel>
+			<canvas normal="0x00ffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="0" inner="0x02650064" hot="0x00610066" selected="0x006c0075"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</examine_3nd_group_panel>
+		<examine_list_recommend_panel>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006e0069" hot="0x00730067" selected="0x0073002f"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</examine_list_recommend_panel>
+		<ExamineTopPanel_Gray>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xffffffff" hover="0xffffffff" select="0xffffffff" offset="0.0"/>
+				<stop color="0xfff1f1f1" hover="0xfff1f1f1" select="0xfff1f1f1" offset="1.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0x00450000" hot="0x00540043" selected="0x23000122"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</ExamineTopPanel_Gray>
+		<ExamineTopPanel_Gray_Line>
+			<canvas normal="0xffe3e3e3" radius="0" angle="90"/>
+			<border normal="0xffe3e3e3" width="1" inner="0xffe3e3e3" hot="0xffe3e3e3" selected="0xffe3e3e3"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</ExamineTopPanel_Gray_Line>
+		<a2>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xcc6a8464" hover="0x00ffffff" select="0x00ffffff" offset="0.0"/>
+			</canvas>
+			<border normal="0xff398c63" width="1" inner="0xff350045" hot="0x0074005c" selected="0x00750072"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</a2>
+		<HalfTransparent>
+			<canvas normal="0x00ffffff" radius="1" angle="90">
+				<stop color="0x2fffffff" hover="0x00ffffff" select="0x00ffffff" offset="0.0"/>
+				<stop color="0x91ffffff" hover="0x00ffffff" select="0x00ffffff" offset="0.5"/>
+				<stop color="0xb1ffffff" hover="0x00ffffff" select="0x00ffffff" offset="1.0"/>
+			</canvas>
+			<border normal="0x00dcdcdc" width="1" inner="0x00dcdcdc" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</HalfTransparent>
+		<a1>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0x99082b01" hover="0x00ffffff" select="0x00ffffff" offset="0.0"/>
+			</canvas>
+			<border normal="0xff398c63" width="1" inner="0xff350045" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</a1>
+		<a4>
+			<canvas normal="0x00ffffff" radius="0" angle="90">
+				<stop color="0xb4495745" hover="0x00ffffff" select="0x00ffffff" offset="0.0"/>
+			</canvas>
+			<border normal="0xff495745" width="1" inner="0xff350045" hot="0x00730067" selected="0x53d6002f"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</a4>
+		<protect_write_panel>
+			<canvas normal="0xfffafafa" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xffffffff" hot="0x0030002d" selected="0x00390045"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</protect_write_panel>
+		<Protect_Item_Panel>
+			<canvas normal="0xfffafafa" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006e0061" hot="0x00680063" selected="0x00730065"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</Protect_Item_Panel>
+		<Examine_UI_Spliter>
+			<canvas normal="0xffdadada" radius="0" angle="90"/>
+			<border normal="0xffe8e8e8" width="1" inner="0xffe8e8e8" hot="0xffe8e8e8" selected="0xffe8e8e8"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</Examine_UI_Spliter>
+		<popup_panel_black>
+			<canvas normal="0xff000000" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</popup_panel_black>
+		<toollistview_panel_main>
+			<canvas normal="0xfffafafa" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006e0061" hot="0x00680063" selected="0x00730065"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</toollistview_panel_main>
+		<advtool_panel>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x00a0a0a0" hot="0xffa0a0a0" selected="0xffa0a0a0"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</advtool_panel>
+		<transparent_panel>
+			<canvas normal="0x00ffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006e0069" hot="0x00730067" selected="0x9ad8002f"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</transparent_panel>
+		<panel_advtool_title_bk>
+			<canvas normal="0xffdddddd" radius="0" angle="180">
+				<stop color="0x00ffffff" hover="0x00ffffff" select="0x00ffffff" offset="0.0"/>
+				<stop color="0xfff2f2f2" hover="0xfff2f2f2" select="0xfff2f2f2" offset="1.0"/>
+			</canvas>
+			<border normal="0xffdfdfdf" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</panel_advtool_title_bk>
+		<StatusBar_Bkground_Panel>
+			<canvas normal="0xfffafafa" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006e0061" hot="0x00680063" selected="0x00730065"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</StatusBar_Bkground_Panel>
+		<PopupWnd_Client_Bkg>
+			<canvas normal="0xfff6f6f6" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</PopupWnd_Client_Bkg>
+		<default>
+			<canvas normal="0xffffffff" radius="10" angle="90"/>
+			<border normal="0xffffffff" width="0" inner="0xffffffff" hot="0x00ffffff" selected="0xffffffff"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</default>
+		<panel_rightangle>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xffffffff" width="0" inner="0xffffffff" hot="0x00ffffff" selected="0xffffffff"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</panel_rightangle>
+		<menu_item_hover>
+			<canvas normal="0xcd3eb01f" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</menu_item_hover>
+		<panel_advtool_darktitle>
+			<canvas normal="0xffa8dd51" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</panel_advtool_darktitle>
+		<toollistview_panel_mgr>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0x006e0061" hot="0x00680063" selected="0x00730065"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</toollistview_panel_mgr>
+		<advtool_panel_split>
+			<canvas normal="0xffacacac" radius="0" angle="90"/>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</advtool_panel_split>
+	</panel>
+	<slider>
+		<default>
+			<canvas normal="0xff8f8f8f" end="0xff7294a5">
+				<thumb start="0x9ffffff" end="0xffdcdcdc" radius="1"/>
+				<elapsed start="0xff013857" end="0x1"/>
+			</canvas>
+			<border normal="0xff808080" width="1" thumb="0x1"/>
+		</default>
+	</slider>
+	<splitter>
+		<default>
+			<canvas normal="0xdeffffff"/>
+			<border normal="0xff" width="1" thumb="0x1"/>
+		</default>
+		<HalfTransparent>
+			<canvas normal="0xdeffffff"/>
+			<border normal="0xff" width="1" thumb="0x1"/>
+		</HalfTransparent>
+	</splitter>
+	<spin>
+		<default>
+			<canvas normal="0x00ffffff"/>
+			<border width="1" normal="0xff000000"/>
+			<font face="微软雅黑" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</default>
+	</spin>
+</themes>

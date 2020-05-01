@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<themes>
+	<window>
+		<defaultSoftWnd icon_point="4,4">
+			<canvas normal="0xff54ae04" image="./MainFrame/Image/background_mainwnd.jpg" fill="0"/>
+			<border normal="0xff638c39" width="1" inner="0xffffffff"/>
+			<font face="宋体" color="0x00b5e513" size="8" bold="0" italic="0" underline="0"/>
+			<shadow border="5,3,5,7" image="./window_shadow.png"/>
+			<caption height="85" color="0xffffffff"/>
+			<system_button offset_pos="6" cap="1" top="0">
+				<close width="27" height="22" image="./MainFrame/Image/sys_button_close.png"/>
+				<min width="27" height="22" image="./MainFrame/Image/sys_button_min.png"/>
+				<max width="27" height="22" image="./MainFrame/Image/sys_button_max.png" retore_image="./MainFrame/Image/sys_button_restore.png"/>
+			</system_button>
+		</defaultSoftWnd>
+	</window>
+	<button>
+		<button_default>
+			<canvas normal="0xff808080" shine="0xffebecee"/>
+			<border normal="0xffb1b8bb" width="0" inner="0xff000000"/>
+			<font face="微软雅黑,tahoma,宋体" color="0x00000000" size="9" bold="0" italic="0" underline="0"/>
+		</button_default>
+		<button_default_black>
+			<canvas normal="0xff808080" shine="0xffebecee"/>
+			<border normal="0xffb1b8bb" width="0" inner="0xff000000"/>
+			<font face="微软雅黑,tahoma,宋体" color="0x00535353" size="9" bold="0" italic="0" underline="0"/>
+		</button_default_black>
+	</button>
+	<static>
+		<static_default_9_green>
+			<canvas normal="0x00c6f0ff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑,tahoma,宋体" color="0x00329900" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff009932" hot="0xff009932" selected="0xff009932" link_color="0xff000000"/>
+		</static_default_9_green>
+		<static_default_9_gray>
+			<canvas normal="0x00fff0c6"/>
+			<border normal="0xff400040" width="2"/>
+			<font face="微软雅黑,tahoma,宋体" color="0x00808080" size="9" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff808080" hot="0xff808080" selected="0xff808080" link_color="0xff808080"/>
+		</static_default_9_gray>
+		<static_default_10_black>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑,tahoma,宋体" color="0xff000000" size="10" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff000000" hot="0xff000000" selected="0xff000000" link_color="0xff000000"/>
+		</static_default_10_black>
+		<static_default_10_blue>
+			<canvas normal="0xff2294e5"/>
+			<border normal="0xff2294e5" width="1"/>
+			<font face="微软雅黑,tahoma,宋体" color="0xff2294e5" size="10" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff2294e5" hot="0xff5dbcff" selected="0xff2294e5" link_color="0xff2294e5"/>
+		</static_default_10_blue>
+		<static_default_10_gray>
+			<canvas normal="0x00fff0c6"/>
+			<border normal="0xff400040" width="2"/>
+			<font face="微软雅黑,tahoma,宋体" color="0x00808080" size="10" bold="0" italic="0" underline="0"/>
+			<caption normal="0xff808080" hot="0xff808080" selected="0xff808080" link_color="0xff808080"/>
+		</static_default_10_gray>
+		<static_default_11_white>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑,tahoma,宋体" color="0x00ffffff" size="11" bold="0" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</static_default_11_white>
+		<static_default_bold_16_white>
+			<canvas normal="0x00ffffff"/>
+			<border normal="0xff000000" width="1"/>
+			<font face="微软雅黑,tahoma,宋体" color="0x00ffffff" size="16" bold="1" italic="0" underline="0"/>
+			<caption normal="0xffffffff" hot="0xffffffff" selected="0xffffffff" link_color="0xffffffff"/>
+		</static_default_bold_16_white>
+	</static>
+	<panel>
+		<panel_default_subpage_bk>
+			<canvas normal="0xffffffff" radius="0" angle="90">
+				<stop color="0xfffafafa" hover="0xfffafafa" select="0xfffafafa" offset="0.0"/>
+				<stop color="0xfffafafa" hover="0xfffafafa" select="0xfffafafa" offset="1.0"/>
+			</canvas>
+			<border normal="0xff000000" width="1" inner="0xcdcdcdcd" hot="0xcdcdcdcd" selected="0xcdcdcdcd"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</panel_default_subpage_bk>
+		<panel_default_line_gray>
+			<canvas normal="0xffffffff" radius="0" angle="90"/>
+			<border normal="0xffe5e5e5" width="1" inner="0xffe5e5e5" hot="0xffe5e5e5" selected="0xffe5e5e5"/>
+			<vscroll_theme scrollbar_theme=""/>
+		</panel_default_line_gray>
+	</panel>
+</themes>
