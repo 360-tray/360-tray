@@ -1,6 +1,6 @@
 ## [下载](https://github.com/360-tray/360-tray/releases/tag/v12.0.0.1011)
-  * [单文件版(SingleFile)](https://github.com/360-tray/360-tray/releases/download/v12.0.0.1011/360-Tray_12.0.0.1011_SingleFile.zip)：压缩包内只含有一个可执行文件
-  * [绿色版(Green)](https://github.com/360-tray/360-tray/releases/download/v12.0.0.1011/360-Tray_12.0.0.1011_Green.zip)： 压缩包内包含了完整加速球目录
+  * [单文件版(SingleFile)](https://github.com/360-tray/360-tray/releases/download/12.0.0.1011/360-Tray_12.0.0.1011_SingleFile.exe)：加速球本体就是一个可执行文件
+  * [绿色版(Portable)](https://github.com/360-tray/360-tray/releases/download/12.0.0.1011/360-Tray_12.0.0.1011_Portable.zip)： 压缩包内包含了完整加速球目录
   
 ## 说明
 ### 这是什么
