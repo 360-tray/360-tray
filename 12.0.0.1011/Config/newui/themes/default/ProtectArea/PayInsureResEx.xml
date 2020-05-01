@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<config>
+<resources>
+		<images>
+			<IDI_X1_NORMAL path=".\ProtectArea\Image\payinsure_open_normal_x1.png"/>
+			<IDI_X1_HOVER path=".\ProtectArea\Image\payinsure_open_hover_x1.png"/>
+			<IDI_X1_PRESS path=".\ProtectArea\Image\payinsure_open_press_x1.png"/>
+			<IDI_X2_NORMAL path=".\ProtectArea\Image\payinsure_open_normal_x2.png"/>
+			<IDI_X2_HOVER path=".\ProtectArea\Image\payinsure_open_hover_x2.png"/>
+			<IDI_X2_PRESS path=".\ProtectArea\Image\payinsure_open_press_x2.png"/>
+			<IDI_X3_HOVER path=".\ProtectArea\Image\payinsure_open_hover_x3.png"/>
+			<IDI_X3_NORMAL path=".\ProtectArea\Image\payinsure_open_normal_x3.png"/>
+			<IDI_X3_PRESS path=".\ProtectArea\Image\payinsure_open_press_x3.png"/>
+		</images>
+</resources>
+<window id="0" title="" style="0x06cf0000" style_ex="0" bound="0,0,600,460" script_engine="JScript" script_path=""/>
+</config>
