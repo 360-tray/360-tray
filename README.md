@@ -1,3 +1,7 @@
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 ## 下载
 * [v12.0.0.1011](https://github.com/360-tray/360-tray/releases/tag/v12.0.0.1011)
   * [单文件版(SingleFile)](https://github.com/360-tray/360-tray/releases/download/v12.0.0.1011/360-Tray_12.0.0.1011_SingleFile.zip)：压缩包内只含有一个可执行文件
