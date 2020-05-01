@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <tabs>
+    <tab id="1010" name="我要提问" bk="tbt_ask.png"  imgcount="4" rect="216,11,89,74" visible="1"/>
+    <tab id="1011" name="我来回答" bk="tbt_answer.png" imgcount="4" rect="320,11,89,74" visible="1"/>
+    <tab id="1012" name="个人中心" bk="tbt_usercenter.png" imgcount="4" rect="527,11,89,74" visible="1"/>
+    <tab id="1013" name="乐帮达人" bk="tbt_daren.png" imgcount="4" rect="424,11,89,74" visible="1"/>
+  </tabs>
+<browsers>
+	<browser id="0" name="ask" button="1010" url="http://wenda.so.com/safe/ask" rect="0,86,800,600" />
+	<browser id="1" name="answer" button="1011" url="http://wenda.so.com/safeUser/specialtylist" rect="151,86,800,600" />
+	<browser id="2" name="user_center" button="1012" url="http://wenda.so.com/safeUser/asklist" rect="0,86,800,600" />
+	<browser id="3" name="daren" button="1013" url="http://wenda.so.com/safe/daren" rect="0,86,800,600" />
+</browsers>
+<questions>
+		<images>
+			<image index="0" name="ans_type_icon.png" size="14,14" />
+			<image index="1" name="ans_type_icon2.png" size="28,28" />
+			<image index="2" name="linedot.png" size="4,2" />
+		</images>
+ 	 	<types bkCorlor="0xFFF4F4F4,0xFFFFFFFF,0xFF43AB40" textcolor="0x727272,0x727272,0xFFFFFF">
+			<type id="0" width="40" icon="1:(0,0)(0,0):1" name="擅长领域" iconoffset="(19,8)" textoffset="(53,0)" fontsize="14" url="http://wenda.so.com/safeUser/specialtylist" />
+			<type id="1" width="40" icon="1:(1,0)(1,0):1" name="同城问题" iconoffset="(19,8)" textoffset="(53,0)" fontsize="14" url="http://wenda.so.com/safeUser/citylist" />
+			<type id="2" width="9" icon="2:(0,0)(0,0):33" name=""  iconoffset="(0,5)" textoffset="(53,0)" fontsize="12" url="" />			
+			<type id="3" width="30" icon="0:(0,0)(0,1):1" name="全部问题" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist" />
+			
+			<type id="4" width="30" icon="0:(1,0)(1,1):1" name="电脑网络" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=1" />
+			<type id="5" width="30" icon="0:(2,0)(2,1):1" name="手机数码" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=2" />
+			<type id="6" width="30" icon="0:(3,0)(3,1):1" name="生活" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=3" />
+			<type id="7" width="30" icon="0:(4,0)(4,1):1" name="游戏" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=4" />
+			<type id="8" width="30" icon="0:(5,0)(5,1):1" name="体育运动" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=5" />
+			<type id="9" width="30" icon="0:(6,0)(6,1):1" name="明星影音" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=6" />
+			<type id="10" width="30" icon="0:(7,0)(7,1):1" name="休闲爱好" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=7" />
+			<type id="11" width="30" icon="0:(8,0)(8,1):1" name="文化艺术" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=8" />
+			<type id="12" width="30" icon="0:(9,0)(9,1):1" name="社会民生" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=9" />
+			<type id="13" width="30" icon="0:(10,0)(10,1):1" name="教育科学" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=10" />
+			<type id="14" width="30" icon="0:(11,0)(11,1):1" name="医疗健康" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=11" />
+			<type id="15" width="30" icon="0:(12,0)(12,1):1" name="金融管理" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=12" />
+			<type id="16" width="30" icon="0:(13,0)(13,1):1" name="情感社交" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=13" />
+			<type id="17" width="30" icon="0:(14,0)(14,1):1" name="地区" iconoffset="(26,8)" textoffset="(53,0)" fontsize="12" url="http://wenda.so.com/safe/qlist?cid=14" />
+			<type id="18" width="30" icon="0:(15,0)(15,1):1" name="其它" iconoffset="(26,8)" textoffset="(53,0)" url="http://wenda.so.com/safe/qlist?cid=573" />
+  		</types>
+</questions>
+		
+<titles> 
+<title name="一束微弱的知识之光，也能照亮他人的整个世界" />
+<title name="分享知识是一种美德" />
+<title name="愿是一盏明灯，照亮路人的天空" />
+<title name="知之为知之，不知来此知" />
+<title name="帮助他人，快乐自己" />
+<title name="我们拥有知识，原是要去帮助更多的人" />
+<title name="问天下人，知天下事" />
+<title name="赠人玫瑰之手，历久犹有余香" />
+<title name="赠人玫瑰之手，历久犹有余香" />
+<title name="" />
+<title name="“疑问”不如“一问”" />
+</titles>
+<msgs>
+    <msg id="1000" type="0" name="赞弹窗" ver="2.5.0.1011" bkid="132" bk="360QandAExpert.exe_png_132" timeout="30">
+      <item id="0" type="0"  name="title" pos="18,36" size="218,14" align="1" ftname="" ftsize="12" color="0x2e5c0b,0x3c7e00"  mutiline="0" bold="1">
+        <text text="哇，%s位网友称赞了您的回答！" holder="data.cnt"/>
+        <cmd text="/tab=2 /st=2 /url=%s" holder="data.surl" />
+      </item>
+      <item id="1" type="0"  name="describe" pos="66,65" size="171,64" align="0" ftname="" ftsize="12" color="0x6a7b5a,0x759a52" mutiline="1" bold="0">
+        <text text="您的回答太精彩了，答题容易，获赞不易，且答且珍惜！继续用您的智慧帮助网友吧！" holder="data.cnt"/>
+        <cmd text="/tab=2 /st=2 /url=%s" holder="data.surl" />
+      </item>
+      <item id="3" type="1"  name="view" idc="1006" img="msg_bt_view.png" rect="173,141,64,24">
+        <text text="查看" holder=""/>
+        <cmd text="/tab=2 /st=2 /url=%s" holder="data.surl" />
+      </item>
+      <item id="4" type="2"  name="zan_icon" img="msg_zan.png" rect="12,65,50,62" count="1" index="(0,0)" size="50,62"/>
+    </msg>
+ </msgs>
+</root>
