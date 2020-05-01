@@ -22,11 +22,7 @@
 
 ## 快照
 ### 加速球
-![换皮](https://i.loli.net/2020/05/01/oZEYf4zgKyL7WIq.png)
-
-![加速球菜单截图](https://i.loli.net/2020/05/01/GPH8EygUJFIlkdC.png)
-
-![加速球动态截图](https://i.loli.net/2020/05/01/Gxo3rj9fvzNTa7K.gif)
+![录制_2020_05_01_15_57_16_790.gif](https://i.loli.net/2020/05/01/nOklPdtFeH1s3NX.gif)
 ### 安全性
 有极少数引擎报毒，是否安全，请君自行分辨。
 
