@@ -2,6 +2,6 @@ theme: jekyll-theme-cayman
 title: 360加速球
 description: 不断更新阉割的360加速球。(有绿色版和单文件版供下载)
 show_downloads: true
-google_analytics: 
+google_analytics: UA-143087102-3
 github:
   zip_url: https://github.com/360-tray/360-tray/releases/download/v12.0.0.1011/360-Tray_12.0.0.1011_SingleFile.zip
