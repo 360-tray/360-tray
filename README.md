@@ -23,6 +23,8 @@
 
 ## 快照
 ### 加速球
+![加速球动态截图](https://i.loli.net/2020/05/01/Gxo3rj9fvzNTa7K.gif)
+
 ![加速球菜单截图](https://i.loli.net/2020/05/01/GPH8EygUJFIlkdC.png)
 
 ### 安全性
